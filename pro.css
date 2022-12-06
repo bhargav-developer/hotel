@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+#btn {
+    position: absolute;
+    background: blue;
+    color: white;
+    top: 187px;
+    left: 84px;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    display: none;
+    list-style: none;
+    width: 104px;
+    height: 50px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+
+#btn:hover {
+    border: 2px solid purple;
+    color: black;
+}
+
+.buy {
+    background: #e8861de3;
+    height: 42px;
+    width: 234px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 37px;
+    top: 129px;
+    display: none;
+    border: 2px solid #b619cd8a;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+}
+
+#time1 {
+    width: 30px;
+    position: absolute;
+    top: 39px;
+    right: -45px;
+}
+
+#time2 {
+    width: 30px;
+    position: absolute;
+    top: 139px;
+    right: -45px;
+}
+
+#time3 {
+    width: 30px;
+    position: absolute;
+    top: 239px;
+    right: -45px;
+
+}
+
+#time4 {
+    width: 30px;
+    position: absolute;
+    top: 339px;
+    right: -45px;
+}
+
+#time5 {
+    width: 30px;
+    position: absolute;
+    top: 439px;
+    right: -45px;
+
+}
+
+
+
+
+
+#cart1 {
+    width: 30px;
+    position: absolute;
+    top: 39px;
+    right: -45px;
+    display: none;
+    cursor: pointer;
+}
+
+#cart2 {
+    width: 30px;
+    position: absolute;
+    top: 139px;
+    right: -45px;
+    display: none;
+    cursor: pointer;
+}
+
+#cart3 {
+    width: 30px;
+    position: absolute;
+    top: 239px;
+    right: -45px;
+    display: none;
+    cursor: pointer;
+
+}
+
+#cart4 {
+    width: 30px;
+    display: none;
+    position: absolute;
+    top: 339px;
+    right: -45px;
+    cursor: pointer;
+}
+
+#cart5 {
+    width: 30px;
+    display: none;
+    position: absolute;
+    top: 439px;
+    right: -45px;
+    cursor: pointer;
+}
+
+.w:hover {
+    cursor: pointer;
+    width: 40px;
+}
+
+.contain {
+    position: absolute;
+    height: 500px;
+    width: 42%;
+    top: 80px;
+    left: 343px;
+    border: 3px solid #15cfa3cc;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn {
+    display: none;
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.order {
+    position: absolute;
+    left: 45vw;
+    top: 117px;
+}
+
+.price {
+    position: relative;
+
+}
+
+.items {
+    padding: 30px 32px;
+    background-color: transparent;
+    flex-direction: row;
+    display: flex;
+    font-size: 3.2vh;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.h1 {
+    top: -580px;
+    right: -490px;
+    font-size: 45px;
+    position: relative;
+    color: rgba(7, 207, 7, 0.836);
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+}
+
+.items:hover {
+    font-size: 3.6vh;
+    border: 1.5px solid white;
+    border-radius: 115px;
+    background: #0980ca86;
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+
+.o {
+    display: grid;
+    position: absolute;
+}
+
+o1 {
+    top: 29px;
+    right: 292px;
+}
+
+video {
+    height: 730px;
+}
+
+.video {
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.img1 {
+    position: absolute;
+    width: 100px;
+    left: 94px;
+    top: -3px;
+}
+
+.img2 {
+    width: 45px;
+}
+
+.login {
+    float: right;
+    position: relative;
+    top: -50px;
+    left: -84px;
+    font-size: 16px;
+    background: #032653;
+    color: white;
+    width: 77px;
+    border: 2px solid;
+    border-radius: 99px;
+}
+
+.login:hover {
+    cursor: pointer;
+    font-size: 18px;
+    color: rgba(19, 206, 19, 0.884);
+}
+
+header::before {
+    position: absolute;
+    background: url('hotel1.jpg') no-repeat center center/cover;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 9px 49px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.9;
+    position: relative;
+    left: 223px;
+    font-size: 3.7vh;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    font-size: 4.2vh;
+    opacity: 1;
+    color: rgba(131, 203, 15, 0.895);
+    text-decoration: underline;
+}
+
+nav ul {
+    display: flex;
+}
+
+h1 {
+    font-size: 10vh;
+}
+
+section {
+    display: flex;
+    position: absolute;
+    width: 67vw;
+    height: 80vh;
+    border: red;
+    justify-content: center;
+    align-items: center;
+    left: 15vw;
+    top: 20vh;
+    opacity: 1;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.containers {
+
+    height: 300px;
+    width: 94vw;
+    position: relative;
+    left: 43px;
+    background: red;
+    color: rgb(13, 12, 12);
+    top: 61px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contain1 {
+    padding: 16px 139px;
+    border: 2px solid blue;
+    background-color: white;
+
+}
+
+.contain2 {
+    background-color: white;
+    border: 2px solid blue;
+    padding: 16px 139px
+}
+
+.contain3 {
+    background-color: white;
+    border: 2px solid blue;
+    padding: 16px 139px;
+}
+
+
+main {
+    top: 100vh;
+    position: absolute;
+    height: 90vh;
+
+}
